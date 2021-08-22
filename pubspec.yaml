@@ -1,0 +1,46 @@
+name: untitled
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http:
+  intl:
+  image_picker:
+  shared_preferences:
+  path:
+  photo_view:
+  uuid:
+  permission_handler:
+  flutter_icons:
+  flutter_spinkit:
+  fluttertoast:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.9.1"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/img/logorp.png"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+        - assets/img/logo2rpConpleto.png
+        - assets/img/email.png
+        - assets/img/younth.svg
+        - assets/img/key.png
+        - assets/img/drawer.jpg
+        - assets/img/
